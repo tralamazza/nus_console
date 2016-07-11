@@ -1,0 +1,15 @@
+{
+  "name": "nus_console",
+  "version": "1.0.0",
+  "description": "Nordic UART Service console",
+  "main": "index.js",
+  "dependencies": {
+    "noble": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Tralamazza",
+  "license": "MIT"
+}
