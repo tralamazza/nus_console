@@ -1,3 +1,4 @@
+'use strict';
 const noble = require('noble');
 
 const NUS_SERVICE_ID = '6e400001b5a3f393e0a9e50e24dcca9e';
