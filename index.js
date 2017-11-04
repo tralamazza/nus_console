@@ -8,6 +8,7 @@ const NUS_TX_CHAR = '6e400002b5a3f393e0a9e50e24dcca9e';
 var tx_char = null;
 
 noble.on('discover', (peripheral) => {
+    noble.stopScanning();
     console.log('Found device with local name: ' + peripheral.advertisement.localName);
     console.log('advertising the following service uuid\'s: ' + peripheral.advertisement.serviceUuids);
     console.log();
